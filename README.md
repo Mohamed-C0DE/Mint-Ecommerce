@@ -1,1 +1,1 @@
-Website Preview: https://mintcommerce.netlify.app/
+Website Preview: https://mintfashion.netlify.app/
