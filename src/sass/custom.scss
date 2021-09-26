@@ -1,0 +1,22 @@
+$navbar-light-toggler-border-color: transparent;
+$input-btn-focus-width: 0;
+.navbar {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  position: relative;
+  z-index: 1030;
+}
+.navbar-brand {
+  margin-right: 0 !important;
+}
+.navbar-toggler {
+  padding: 0.25rem 0 !important;
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    max-width: 80%;
+  }
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

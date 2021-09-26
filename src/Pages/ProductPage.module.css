@@ -1,0 +1,36 @@
+.image {
+  width: 100%;
+  height: auto;
+}
+.imgContainer {
+  overflow: hidden !important;
+}
+.slide {
+  width: 100px !important;
+  height: 100px !important;
+  margin-right: 3px !important;
+}
+.slideContainer {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  overflow-x: scroll !important;
+  width: 100% !important;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  scroll-behavior: smooth;
+}
+.icon {
+  font-size: 35px;
+  margin: 0 5px;
+  display: inline-flex !important;
+}
+
+@media (min-width: 768px) {
+  .slideContainer {
+    width: 80% !important;
+  }
+} ;

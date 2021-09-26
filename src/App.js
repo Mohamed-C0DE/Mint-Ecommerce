@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route } from "react-router-dom";
+import HomePage from "./Pages/Homepage";
+import Shop from "./Pages/Shop";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Sale from "./Pages/Sale";
+import Search from "./Pages/Search";
+import Account from "./Pages/Account";
+import ProductPage from "./Pages/ProductPage";
+import Cart from "./Pages/Cart";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Route exact path="/">
+        <HomePage />
+      </Route>
+      <Route exact path="/Shop">
+        <Shop />
+      </Route>
+      <Route exact path="/About">
+        <About />
+      </Route>
+      <Route exact path="/Contact">
+        <Contact />
+      </Route>
+      <Route exact path="/Sale">
+        <Sale />
+      </Route>
+      <Route exact path="/Search">
+        <Search />
+      </Route>
+      <Route exact path="/Account">
+        <Account />
+      </Route>
+      <Route exact path="/ProductPage">
+        <ProductPage />
+      </Route>
+      <Route exact path="/Cart">
+        <Cart />
+      </Route>
     </div>
   );
-}
+};
 
 export default App;

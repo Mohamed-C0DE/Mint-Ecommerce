@@ -1,0 +1,25 @@
+.footer {
+  text-align: center;
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+.icon {
+  font-size: 25px;
+  margin: 5px 10px;
+}
+.icon:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.navLink {
+  padding: 2px 4px !important;
+}
+.text {
+  color: #000 !important;
+}
+.header {
+  padding-left: 4px;
+}
+.btn {
+  width: 50px;
+}

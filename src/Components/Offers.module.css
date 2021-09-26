@@ -1,0 +1,5 @@
+.offers {
+  height: 23px !important;
+  position: relative;
+  z-index: 1000;
+}
