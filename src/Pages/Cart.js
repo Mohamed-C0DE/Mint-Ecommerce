@@ -13,7 +13,13 @@ const Cart = () => {
       <Offers />
       <Header />
       <Container fluid>
-        <p className={styles.cart}>THIS IS CART PAGE</p>
+        <section>
+          <header className="fs-3 text-center">Shopping Cart</header>
+          <div className="row">
+            <div className="col-6 text-center">CART ITEMS</div>
+            <div className="col-6 text-center">TOTAL</div>
+          </div>
+        </section>
       </Container>
       <Footer />
     </div>

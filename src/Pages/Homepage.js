@@ -113,7 +113,7 @@ const Homepage = () => {
           </Nav.Link>
         </Button>
       </section>
-      <Container fluid>
+      <Container fluid className="mt-0">
         {/* BEST SELLERS */}
         <section className="py-2">
           <h3 className="text-center pb-1">Best Sellers</h3>

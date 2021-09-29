@@ -21,9 +21,10 @@
   align-items: center;
   flex-direction: column;
   overflow: hidden;
-  height: 97vh;
+  min-height: 100vh;
   width: 100vw;
   padding-bottom: 130px;
+  margin-bottom: -20px;
 }
 .deals::before {
   content: "";
