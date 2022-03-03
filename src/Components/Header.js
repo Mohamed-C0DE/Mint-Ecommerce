@@ -41,9 +41,11 @@ const Header = () => {
   if (width === true) {
     return (
       <Navbar
-        className={
-          scrolledHeader ? "fixed-top w-100 bg-light" : "bg-transparent"
-        }
+        className={`${styles.navbar} ${
+          scrolledHeader
+            ? "fixed-top w-100 bg-light mt-0"
+            : " fixed-top bg-transparent"
+        }`}
         expand="md"
       >
         <Container fluid>
@@ -89,11 +91,9 @@ const Header = () => {
 
   return (
     <Navbar
-      className={
-        scrolledHeader
-          ? "fixed-top bg-light"
-          : "relative-top bg-light rounded-bottom"
-      }
+      className={`${styles.navbar} ${
+        scrolledHeader ? "fixed-top bg-light mt-0" : "fixed-top bg-light"
+      }`}
       expand="md"
     >
       <Container fluid>
