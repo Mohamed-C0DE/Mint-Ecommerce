@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
@@ -18,7 +18,7 @@ import Main from "../UI/Main";
 const ProductPage = () => {
   const [width, setWidth] = useState(false);
   const [products, setProducts] = useState([]);
-  const [displayProducts, setDisplayProducts] = useState(false);
+  // const [displayProducts, setDisplayProducts] = useState(false);
   const slideContainerRef = useRef();
 
   useEffect(() => {
