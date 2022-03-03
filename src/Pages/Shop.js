@@ -4,6 +4,7 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import Products from "../Components/Products";
 import ScrollToTop from "../Components/ScrollToTop";
+import Main from "../UI/Main";
 
 const Shop = () => {
   return (
@@ -11,7 +12,9 @@ const Shop = () => {
       <ScrollToTop />
       <Offers />
       <Header />
-      <Products />
+      <Main>
+        <Products />
+      </Main>
       <Footer />
     </div>
   );
