@@ -1,3 +1,5 @@
+# MINT
+
 Website Preview: https://mintfashion.netlify.app/
 
 **IN PROGRESS**
