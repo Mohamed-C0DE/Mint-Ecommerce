@@ -1,5 +1,16 @@
-Website Preview: https://mintfashion.netlify.app/
+# MINT
 
-**IN PROGRESS**
+Mint is a minimalist men's fashion website providing men with the essential clothing for everyday needs. The site is deployed on Netlify but is currently in progress.
 
-Mint, a minimalist men's ecommerce website. Product data and information is fetched from Firebase. This react app uses HTML5, CSS3, SASS, Bootstrap, JS, React, React-Router, React Icons and is deployed using Netlify.
+Live site: https://mintfashion.netlify.app/
+
+## Tech Stack
+
+- React
+- CSS
+- SASS
+- JavaScript
+- Firebase
+
+## Setup
+Clone repo and `npm install`. When depenendencies are installed `npm start` to view site on browser.
