@@ -13,4 +13,5 @@ Live site: https://mintfashion.netlify.app/
 - Firebase
 
 ## Setup
-Clone repo and `npm install`. When depenendencies are installed `npm start` to view site on browser.
+
+Clone repo and `npm install`. When dependencies are installed `npm start` to view site on browser.
